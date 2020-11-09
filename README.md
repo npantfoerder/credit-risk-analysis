@@ -5,8 +5,7 @@
 A hypothetical peer to peer lending services company wants to use machine learning to predict credit risk. They need help building and evalutating several ML models, oversampling and undersampling the data, and evaluating the performance of the models to see how well they predict data. Management believes that this will provide a quicker and more reliable loan experience, and lead to a more accurate identification of good candidates for loans.
 
 ## Results
-### DataFrames from Google Colaboratory
-*Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your resutls.*
+### Outputs from All Six Models
 - The naive random oversampling algorithm resulted in a balanced accuracy score of 0.64. The precision score was 1.0 for predicting low risk, but extremely low for predicting high risk (0.01). The recall scores were 0.66 and 0.62 for high and low risk, respectively. 
 <kbd> <img src='https://github.com/npantfoerder/credit-risk-analysis/blob/master/Images/ros.png' width=700> </kbd> <br>
 
