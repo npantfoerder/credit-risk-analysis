@@ -25,7 +25,7 @@ A hypothetical peer to peer lending services company wants to use machine learni
 <kbd> <img src='https://github.com/npantfoerder/credit-risk-analysis/blob/master/Images/ee.png' width=700> </kbd> <br>
 
 ## Summary
-*Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.*
+Undersampling the data using the Cluster Centroids algorithm yielded the lowest balanced accuracy score of 0.55. The precision scores for prediciting high risk was low for all six models. The Balanced Random Forest Classifier and the Easy Ensemble Classifier gave the highest recall scores of 0.92 and 0.94 for high and low risk, respectively. I would recommend to use the Easy Ensemble Classsifer because it had the highest balanced accuracy score of 0.93, although the company should be aware of the implications of the precision scores. The precision score of 0.09 means that a high risk classification is not very reliable. 
 
 #### Resources
 - Data Sources: LoanStats_2019Q1.csv
